@@ -71,6 +71,15 @@
 .button:hover {
     color: #3a3a3a;
 }
+.button__edit{
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
 
 /* Heading */
 
@@ -142,11 +151,20 @@
 .li > .text {
     width: 226px;
 }
-
+.button__delete{
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
 .button__delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
+
 }
 
 .button__delete img:hover {
